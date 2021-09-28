@@ -4,6 +4,11 @@ export const StyledHeader = styled.header`
   background: url("./images/bg-hero-desktop.svg")
     ${({ theme }) => theme.colors.header};
   padding: 40px 0;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    background: url("./images/bg-hero-mobile.svg")
+      ${({ theme }) => theme.colors.header};
+  }
 `;
 
 export const Nav = styled.nav`
@@ -15,9 +20,11 @@ export const Nav = styled.nav`
 
 export const Logo = styled.img`
   height: 21px;
-  width: 134px;
+  width: 139px;
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin-bottom: 40px;
+    height: 28px;
+    width: 180px;
   }
 `;
 

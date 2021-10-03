@@ -16,7 +16,5 @@ export const Button = styled.button`
     transform: scale(0.98);
   }
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    margin-bottom: 40px;
-    font-size: 18px;
   }
 `;

@@ -15,24 +15,21 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 `;
 
 export const Logo = styled.img`
-  height: 21px;
-  width: 139px;
+  width: 160px;
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin-bottom: 40px;
-    height: 28px;
-    width: 180px;
   }
 `;
 
 export const Image = styled.img`
   width: 555px;
-  margin-left: 40px;
+  margin-left: 50px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    margin: 40px 0 30px;
+    margin: 60px 0 0;
   }
 `;

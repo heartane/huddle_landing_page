@@ -6,6 +6,9 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  h1, h2 {
+    font-family: "Poppins", sans-serif;
+  } 
   body, button {
     background: ${({ theme }) => theme.colors.body};
     color: hsl(192, 100%, 9%);
@@ -13,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 18px;
     margin: 0;
   }
-  p {
+  p, li {
     opacity: 0.8;
     line-height: 1.5;
   }

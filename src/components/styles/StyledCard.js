@@ -24,10 +24,6 @@ export const StyledCard = styled.div`
     width: 90%;
   }
 
-  h2 {
-    font-family: "Poppins", sans-serif;
-  }
-
   p {
     color: hsl(208, 11%, 55%);
   }
@@ -38,9 +34,6 @@ export const StyledCard = styled.div`
       margin-top: 70px;
     }
   }
-  &:last-of-type {
-    margin-bottom: 300px;
-  }
 
   & > div {
     flex: 1;
@@ -50,5 +43,8 @@ export const StyledCard = styled.div`
     flex-direction: column;
     text-align: center;
     padding: 60px;
+    h2 {
+      font-size: 23px;
+    }
   }
 `;
